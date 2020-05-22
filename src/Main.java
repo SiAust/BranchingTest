@@ -1,5 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-        // initial commit
+        System.out.println("This is a change made in branch \"FirstBranch\"");
     }
 }
