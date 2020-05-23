@@ -10,7 +10,8 @@
  ### Some further tasks to explore
  - [ ] Update a local repository with changes from a remote repo
  - [ ] Fork an interesting repository
- - [X] Renaming a branch following conventions
+ - [X] Renaming a branch following naming conventions
+ - [ ] Deleting a remote branch
  - [ ] More to come...
  
  ### Some useful Git tips
