@@ -10,7 +10,9 @@
  ### Some further tasks to explore
  - [ ] Update a local repository with changes from a remote repo
  - [ ] Fork an interesting repository
- - [X] Renaming a branch following conventions
+ - [X] Renaming a branch following naming conventions
+ - [X] Deleting a remote branch
+ - [ ] Merging a branch locally and remotely
  - [ ] More to come...
  
  ### Some useful Git tips
@@ -26,5 +28,14 @@
 - `git branch -m <oldname> <newname>` to rename a local branch
     - `git branch -m <newname>` rename current branch
 - `git branch` shows all branches and currently active branch
-    
+- `git push -d origin <branchname>` delete a remote branch
+    - `git branch -d <branchname>` delete a local branch
+    `-d == --delete` and `-D == --delete --force` deletes the local 
+    branch irrespective of merge status.
+- `git merge`
+- `git fetch`
+- `git pull` pulls the latest commit of the current branch?
+- Branch names should use lowercase and words separated by a "/". I.e.
+`test/branch`, `wip`, `feat/json`
+
 [SiAust Github Pages](https://siaust.github.io) :+1:
