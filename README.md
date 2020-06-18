@@ -5,37 +5,20 @@
  to the branch, push to Github, create a pull request
  and merge into the master branch. This will be completed
  using the Git terminal commands in InteliJ IDEA IDE.
- ### Created FirstBranch
- This is and all below, are changes added to FirstBranch branch.
+
  ### Some further tasks to explore
- - [ ] Update a local repository with changes from a remote repo
- - [ ] Fork an interesting repository
+ - [X] Update a local repository with changes from a remote repo
+ - [X] Fork an interesting repository
  - [X] Renaming a branch following naming conventions
  - [X] Deleting a remote branch
- - [ ] Merging a branch locally and remotely
+ - [X] Merging a branch locally and remotely
  - [ ] More to come...
  
- ### Some useful Git tips
- - `git remote remove <name>` if you make an error in the URL you can remove
- reference and add the correct address using `git remote origin <URL>`
- - `git add *.java` adds all java files in the current working directory
- to the staging area ready to be committed.
- - `git clone <URL>` copies (clones) a repository from a URL.
- - In console commands use the command name followed by `-help` to
- see the options.
-    - `[]` elements are optional
-    - `<>` elements are required
-- `git branch -m <oldname> <newname>` to rename a local branch
-    - `git branch -m <newname>` rename current branch
-- `git branch` shows all branches and currently active branch
-- `git push -d origin <branchname>` delete a remote branch
-    - `git branch -d <branchname>` delete a local branch
-    `-d == --delete` and `-D == --delete --force` deletes the local 
-    branch irrespective of merge status.
-- `git merge`
-- `git fetch`
-- `git pull` pulls the latest commit of the current branch?
-- Branch names should use lowercase and words separated by a "/". I.e.
-`test/branch`, `wip`, `feat/json`
+### Aggregated tips
+
+- [Git and Github](./GIT.md)
+- [Markdown files](./MARKDOWN.md)
+
+
 
 [SiAust Github Pages](https://siaust.github.io) :+1:
